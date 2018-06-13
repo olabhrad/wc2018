@@ -7,7 +7,7 @@ module.exports = function() {
     rootURL: '/wc2018/',
     locationType: 'hash',
     ghpages: {
-      gitRemoteUrl: 'git@github.com:/nolaneo/wc2018',
+      gitRemoteUrl: 'git@github.com:/olabhrad/wc2018',
     }
   };
   return ENV;
