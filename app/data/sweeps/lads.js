@@ -13,7 +13,7 @@ export default [
   },
   {
     name: "DK",
-    teams: ["Germany", "South Korea"]
+    teams: ["Germany", "Korea Republic"]
   },
   {
     name: "Dyl",

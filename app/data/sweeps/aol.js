@@ -25,7 +25,7 @@ export default [
   },
   {
     name: "Owen",
-    teams: ["France", "England", "Senegal", "South Korea"]
+    teams: ["France", "England", "Senegal", "Korea Republic"]
   },
   {
     name: "Kirk",
