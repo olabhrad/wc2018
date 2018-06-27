@@ -2,14 +2,14 @@
   <div class="u__width__100"><!--SPACER--></div>
   <div class="layout__box o__has-columns">
     {{#each player.teams as |team|}}
-      <img class="pool-table-flag" src="https://raw.githubusercontent.com/olabhrad/wc2018/master/public/assets/images/flags/{{dasherize team}}.png"/>
+      <img class="pool-table-flag {{unless (contains team upcomingTeams) 'o__out'}}" src="https://raw.githubusercontent.com/olabhrad/wc2018/master/public/assets/images/flags/{{dasherize team}}.png"/>
     {{/each}}
   </div>
 </td>
 <td>
   <b>{{player.name}}</b>
 </td>
-<td class="live-col">
+<td class="live-col no-width">
 {{#if player.currentlyPlaying}}
   <div class="ring-container">
     <div class="ringring"></div>
